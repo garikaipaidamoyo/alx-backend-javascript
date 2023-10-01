@@ -27,11 +27,12 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
+    "jest/no-conditional-expect': 'off',
   },
-  overrides:[
+  overrides: [
     {
       files: ['*.js'],
       excludedFiles: 'babel.config.js',
-    }
-  ]
+    },
+  ],
 };
